@@ -1,4 +1,4 @@
-# K8S
+# Kubernetes notes
 
 ## Terminology
 
