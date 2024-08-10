@@ -16,6 +16,8 @@
 - [Config Maps](concepts/config_maps.md)
 - [Deployments](concepts/deployments.md)
 - [Ingress](concepts/ingress.md)
+- [Ingress Classes](concepts/ingress_classes.md)
+- [Ingress Controllers](concepts/ingress_controllers.md)
 - [Jobs](concepts/jobs.md)
 - [Roles](concepts/roles.md)
 - [Roles Bindings](concepts/roles_bindings.md)
