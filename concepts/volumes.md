@@ -27,4 +27,5 @@ spec:
   - name:
     emptyDir:
     configMap:
+    secret:
 ```
