@@ -24,6 +24,8 @@
     - [Controllers](concepts/ingress/controllers.md)
 - [Jobs](concepts/jobs.md)
 - [Cron Jobs](concepts/cron_jobs.md)
+- [Namespaces](concepts/namespaces.md)
+- [Pods](concepts/pods.md)]
 - [Roles](concepts/roles.md)
 - [Roles Bindings](concepts/roles_bindings.md)
 - [Secrets](concepts/secrets.md)
