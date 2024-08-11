@@ -27,7 +27,7 @@
 - [Cron Jobs](concepts/cron_jobs.md)
 - [Namespaces](concepts/namespaces.md)
 - [Nodes](concepts/nodes.md)
-- [Pods](concepts/pods.md)]
+- [Pods](concepts/pods.md)
 - [Roles](concepts/roles.md)
 - [Roles Bindings](concepts/roles_bindings.md)
 - [Secrets](concepts/secrets.md)
