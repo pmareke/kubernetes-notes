@@ -20,11 +20,11 @@ metadata:
 spec:
   containers:
   - image:
-    name:
     volumeMounts:
     - mountPath:
       name:
   volumes:
   - name:
     emptyDir:
+    configMap:
 ```
