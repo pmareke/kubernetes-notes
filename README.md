@@ -19,12 +19,14 @@
 
 - [Config Maps](concepts/config_maps.md)
 - [Deployments](concepts/deployments.md)
+- [Images](concepts/images.md)
 - [Ingress](concepts/ingress/main.md)
     - [Classes](concepts/ingress/classes.md)
     - [Controllers](concepts/ingress/controllers.md)
 - [Jobs](concepts/jobs.md)
 - [Cron Jobs](concepts/cron_jobs.md)
 - [Namespaces](concepts/namespaces.md)
+- [Nodes](concepts/nodes.md)
 - [Pods](concepts/pods.md)]
 - [Roles](concepts/roles.md)
 - [Roles Bindings](concepts/roles_bindings.md)
