@@ -19,6 +19,7 @@
 
 - [Config Maps](concepts/config_maps.md)
 - [Deployments](concepts/deployments.md)
+- [Daemon Sets](concepts/daemon_sets.md)
 - [Images](concepts/images.md)
 - [Ingress](concepts/ingress/main.md)
     - [Classes](concepts/ingress/classes.md)
