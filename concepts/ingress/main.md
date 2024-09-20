@@ -18,6 +18,15 @@
 - Ingresses can be implemented by different controllers.
 - Before Kubernetes 1.18, Ingress classes were specified with a `kubernetes.io/ingress.class` annotation on the Ingress.
     - The newer `ingressClassName` field on Ingresses is a replacement for that annotation.
+- Ingress resource only supports rules for directing HTTP(S) traffic.
+- Each HTTP `rule` contains the following information:
+    - An optional `host`.
+    - A list of `paths`, each of which has an associated `backend` defined with:
+        - `service.name`.
+        - `service.port.name` or `service.port.number`.
+        - A `backend` is a combination of `Service` and `port` names.
+        - Each `path` in an `Ingress` is required to have a corresponding `path type`.
+            - `ImplementationSpecific`, `Exact` or `Prefix`.
 
 ```yaml
 apiVersion: networking.k8s.io/v1
@@ -28,4 +37,14 @@ metadata:
   annotations:
 spec:
   rules:
+    - host:
+      http:
+        paths:
+        - pathType:
+          path:
+          backend:
+            service:
+            name:
+            port:
+              number:
 ```
