@@ -18,6 +18,7 @@
 ## Concepts
 
 - [Config Maps](concepts/config_maps.md)
+- [Containers](concepts/containers.md)
 - [Deployments](concepts/deployments.md)
 - [Daemon Sets](concepts/daemon_sets.md)
 - [Images](concepts/images.md)
